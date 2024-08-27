@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/myimage.jpg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -36,25 +36,24 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Anurag
           <br />
-          Johnsen
+           Sisodiya
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Java Full Stack Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
+          <a href="https://x.com/anuragxsisodiya" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/ANURAGSISODIYAA?tab=overview&from=2024-02-01&to=2024-02-21" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://www.linkedin.com/in/anurag-sisodiya-64a202252/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+        I'm a third-year IT student skilled in backend and frontend development. I work with Java, Spring Boot, and React to build innovative solutions.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

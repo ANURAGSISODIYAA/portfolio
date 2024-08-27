@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import social from '../../assets/Social.png';
+import chat from '../../assets/chat.png';
+import cricket from '../../assets/CrfciWhizz.png';
+import video from '../../assets/video.gif';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +11,29 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={social}
+          link="https://github.com/ANURAGSISODIYAA/SocialSphere"
+          h3="
+Social Sphere"
+          p="Social platform for coders"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={chat}
+          link="https://github.com/ANURAGSISODIYAA/Converse"
+          h3="Converse"
+          p="One-to-One Chat application"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={cricket}
+          link="https://github.com/ANURAGSISODIYAA/CricWhizz_Backend"
+          h3="CricWhizz"
+          p="Provides live cricket scores"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={video}
+          link="https://github.com/ANURAGSISODIYAA/Video_Calling_Application"
+          h3="Video Calling Application"
+          p="Connect easily, chat instantly"
         />
       </div>
     </section>
